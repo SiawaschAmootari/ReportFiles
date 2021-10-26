@@ -1,8 +1,6 @@
 import os, time
 import TestGui
-
-def start_WatchDog():
-        
+def main():
     print("in Watchdog")
     path_to_watch = "C:\\Users\\samootari\\OneDrive\\Desktop\\Python"
         
@@ -27,7 +25,7 @@ def start_WatchDog():
                    # before = dict ([(f, None) for f in os.listdir (path_to_watch)])
                    # done = False
                    # exit()
+if __name__ == "__main__":
+    main() 
 
-
-start_WatchDog()       
 
