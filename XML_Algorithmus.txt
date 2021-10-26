@@ -1,0 +1,34 @@
+#report_file = open('Y:\MW\ESCmachine_Report-File_Test\Report Files\Report-19.10.21-3.xml', 'r', encoding= "cp1252") 
+
+#xml_file =[]
+
+#for line in report_file:
+ #   stripped_line = line.strip()
+  #  #line_list = stripped_line.split()
+   # xml_file.append(stripped_line)
+
+#report_file.close()
+#errorList =[]
+#operationList = []
+#counterList =[]
+#for line in xml_file:
+#    if "description='&quot;" in line:
+#        line = line.split("&quot;")
+#        operationList.append(line[1])
+
+#for line in xml_file:
+#    if line.find("simulator_out_of_range") == 1 or line.find("simulator_collision") ==1 or line.find("operation id=")==1:
+#        if "operation id=" in line :
+#            line = line.split('"')
+#            counterList.append(line[1])
+#            
+#            errorList.append(operationList[int(line[1])-1])
+#           
+#        elif not (len(errorList)>1 and line == errorList[-1]):
+#            errorList.append(line)
+
+
+
+
+#for line in errorList:
+#    print(line)

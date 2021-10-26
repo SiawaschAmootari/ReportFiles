@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<simulation_report version="1.2">
+    <generic_data date="2021-10-21" time="15:58:04" running_time_in_s="12.815000" peak_memory_occupancy_in_MB="485.687286" measurement_units="millimeters" />
+    <simulation_data no_tools="6" no_blocks="2855" no_nci="18496" no_simulated_moves="49132" SimulationMetrics="MoveBased">
+        <collision_checking enabled="true" tolerance="0.010000" between_moves_checking_enabled="false" />
+        <stocks count="1">
+            <stock name="stock" workpiece_model="5axis" simulated_edge="true" simulated_ncedge="true" simulated_arbor="true" simulated_holder="true">
+                <stock_bounding_box>
+                    <initial_stock maxx="29.750000" maxy="87.500000" maxz="332.000000" minx="-25.250000" miny="52.500000" minz="210.000000" />
+                    <final_stock maxx="29.749998" maxy="87.500000" maxz="331.000000" minx="-25.250000" miny="52.500000" minz="210.000000" />
+                </stock_bounding_box>
+                <stock_data initial_volume="233913.546875" final_volume="213547.687500" />
+            </stock>
+        </stocks>
+        <tools count="6">
+            <tool description=' - &quot;&quot; ' type="Flacher Schaftfräser" diameter="12.000000" />
+            <tool description=' - &quot;&quot; ' type="Flacher Schaftfräser" diameter="12.000000" />
+            <tool description=' - &quot;&quot; ' type="Flacher Schaftfräser" diameter="6.000000" />
+            <tool description=' - &quot;&quot; ' type="Benutzerdefiniert" diameter="8.000000" />
+            <tool description=' - &quot;&quot; ' type="Bohrer" diameter="3.300000" />
+            <tool description=' - &quot;&quot; ' type="Benutzerdefiniert" diameter="5.000000" />
+        </tools>
+        <operations count="13">
+            <operation id="1" description='&quot;INITIAL&quot;' toolId="0" firstBlk="1" lastBlk="1" no_blocks="1" no_nci="1" no_simulated_moves="1">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="0h:00m:00,0s" endTime="0h:00m:00,0s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="2" description='&quot;TOOLCHANGE SF12-36&quot;' toolId="0" firstBlk="2" lastBlk="3" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="0h:00m:00,0s" endTime="0h:00m:00,0s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="3" description='&quot;AUSSENKONTUR_SR&quot;' toolId="1" firstBlk="4" lastBlk="718" no_blocks="715" no_nci="9774" no_simulated_moves="14896">
+                <timeInfo cuttingTime="0h:07m:06,5s" startTime="0h:00m:00,0s" endTime="1h:44m:07,9s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="1h:43m:56,2s" movingTime="0h:00m:06,6s" />
+                <lengthInfo tpLength="8111.887338" feedLength="6915.826188" rapidLength="1196.061149" />
+            </operation>
+            <operation id="4" description='&quot;TOOLCHANGE SF16-62&quot;' toolId="1" firstBlk="719" lastBlk="720" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="1h:44m:07,9s" endTime="1h:44m:07,9s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="5" description='&quot;AUSSENKONTUR_SCHLICHT&quot;' toolId="2" firstBlk="721" lastBlk="2622" no_blocks="1902" no_nci="8046" no_simulated_moves="15566">
+                <timeInfo cuttingTime="0h:07m:22,1s" startTime="1h:44m:07,9s" endTime="3h:05m:42,5s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="1h:21m:16,5s" movingTime="0h:00m:11,8s" />
+                <lengthInfo tpLength="10042.059061" feedLength="6891.840154" rapidLength="3150.218907" />
+            </operation>
+            <operation id="6" description='&quot;TOOLCHANGE SF6-27&quot;' toolId="2" firstBlk="2623" lastBlk="2624" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="3h:05m:42,5s" endTime="3h:05m:42,5s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="7" description='&quot;TASCHE-1&quot;' toolId="3" firstBlk="2625" lastBlk="2769" no_blocks="145" no_nci="583" no_simulated_moves="6310">
+                <timeInfo cuttingTime="0h:00m:50,9s" startTime="3h:05m:42,5s" endTime="3h:07m:42,4s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="0h:01m:40,4s" movingTime="0h:00m:14,4s" />
+                <lengthInfo tpLength="5833.797856" feedLength="524.230889" rapidLength="5309.566967" />
+            </operation>
+            <operation id="8" description='&quot;TOOLCHANGE ANBOHR-D8&quot;' toolId="3" firstBlk="2770" lastBlk="2771" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="3h:07m:42,4s" endTime="3h:07m:42,4s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="9" description='&quot;ANBOHREN-TASCHE2&quot;' toolId="4" firstBlk="2772" lastBlk="2792" no_blocks="21" no_nci="21" no_simulated_moves="3666">
+                <timeInfo cuttingTime="0h:00m:19,7s" startTime="3h:07m:42,4s" endTime="3h:08m:02,1s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="0h:00m:05,5s" movingTime="0h:00m:09,1s" />
+                <lengthInfo tpLength="3652.859073" feedLength="9.200475" rapidLength="3643.658597" />
+            </operation>
+            <operation id="10" description='&quot;TOOLCHANGE BOHRER3_3&quot;' toolId="4" firstBlk="2793" lastBlk="2794" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="3h:08m:02,1s" endTime="3h:08m:02,1s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="11" description='&quot;BOHREN_KERNLOCH_TASCHE1&quot;' toolId="5" firstBlk="2795" lastBlk="2831" no_blocks="37" no_nci="37" no_simulated_moves="4073">
+                <timeInfo cuttingTime="0h:01m:19,4s" startTime="3h:08m:02,1s" endTime="3h:09m:21,6s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="0h:01m:05,3s" movingTime="0h:00m:09,1s" />
+                <lengthInfo tpLength="4054.445938" feedLength="217.011620" rapidLength="3837.434319" />
+            </operation>
+            <operation id="12" description='&quot;TOOLCHANGE GWB-M4&quot;' toolId="5" firstBlk="2832" lastBlk="2833" no_blocks="2" no_nci="2" no_simulated_moves="2">
+                <timeInfo cuttingTime="0h:00m:00,0s" startTime="3h:09m:21,6s" endTime="3h:09m:21,6s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:00,0s" workingTime="0h:00m:00,0s" movingTime="0h:00m:00,0s" />
+                <lengthInfo tpLength="0.000000" feedLength="0.000000" rapidLength="0.000000" />
+            </operation>
+            <operation id="13" description='&quot;GEWINDE_M4-TASCHE2&quot;' toolId="6" firstBlk="2834" lastBlk="2855" no_blocks="22" no_nci="22" no_simulated_moves="4608">
+                <timeInfo cuttingTime="0h:00m:22,3s" startTime="3h:09m:21,6s" endTime="3h:09m:43,9s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:05,0s" workingTime="0h:00m:07,1s" movingTime="0h:00m:10,2s" />
+                <lengthInfo tpLength="4594.474583" feedLength="24.999685" rapidLength="4569.474897" />
+            </operation>
+        </operations>
+        <timeInfo cuttingTime="0h:17m:21,2s" startTime="0h:00m:00,0s" endTime="3h:09m:43,9s" dwellTime="0h:00m:00,0s" toolChangingTime="0h:00m:30,0s" workingTime="3h:08m:11,1s" movingTime="0h:01m:01,5s" />
+        <lengthInfo tpLength="36289.523848" feedLength="14583.109011" rapidLength="21706.414837" />
+    </simulation_data>
+    <events overall_count="83">
+        <operation id="3" toolId="1">
+            <nci number="3344" blk="283" custom_information=" G2  X+23  Y-21.500  Z-35  A0  C0">
+                <verifier_excess size="3.931278" posX="29.618986" posY="52.631145" posZ="295.866425" toolNumber="2" />
+            </nci>
+        </operation>
+        <operation id="5" toolId="2">
+            <nci number="9870" blk="735" custom_information=" G1  X+23  Y+21  Z-11  A0  C0">
+                <verifier_excess size="0.123673" posX="19.833426" posY="84.920380" posZ="320.122620" toolNumber="7" />
+                <verifier_excess size="0.114401" posX="19.221830" posY="84.920380" posZ="320.427734" toolNumber="7" />
+                <verifier_excess size="0.114401" posX="-14.721828" posY="84.920380" posZ="320.427734" toolNumber="7" />
+                <verifier_excess size="0.111130" posX="18.916029" posY="84.920380" posZ="320.580292" toolNumber="7" />
+                <verifier_excess size="0.111130" posX="-14.416029" posY="84.920380" posZ="320.580292" toolNumber="7" />
+                <verifier_excess size="0.108181" posX="18.610231" posY="84.920380" posZ="320.732849" toolNumber="7" />
+                <verifier_excess size="0.108181" posX="-14.110230" posY="84.920380" posZ="320.732849" toolNumber="7" />
+                <verifier_excess size="0.105232" posX="18.304434" posY="84.920380" posZ="320.885376" toolNumber="7" />
+                <verifier_excess size="0.105232" posX="-13.804431" posY="84.920380" posZ="320.885376" toolNumber="7" />
+                <verifier_excess size="0.104523" posX="14.940649" posY="84.920380" posZ="322.563477" toolNumber="7" />
+                <verifier_excess size="0.104523" posX="-10.440645" posY="84.920380" posZ="322.563477" toolNumber="7" />
+                <verifier_excess size="0.102297" posX="17.998636" posY="84.920380" posZ="321.037933" toolNumber="7" />
+                <verifier_excess size="0.102297" posX="-13.498632" posY="84.920380" posZ="321.037933" toolNumber="7" />
+                <verifier_excess size="0.101867" posX="-8.300055" posY="84.920380" posZ="323.478821" toolNumber="7" />
+                <verifier_excess size="0.101860" posX="12.800055" posY="84.920380" posZ="323.478821" toolNumber="7" />
+                <verifier_excess size="0.101376" posX="-10.746445" posY="84.920380" posZ="322.410950" toolNumber="7" />
+                <verifier_excess size="0.101376" posX="15.246447" posY="84.920380" posZ="322.410950" toolNumber="7" />
+                <verifier_excess size="0.100231" posX="-13.192834" posY="84.920380" posZ="321.190491" toolNumber="7" />
+                <verifier_excess size="0.100231" posX="17.692835" posY="84.920380" posZ="321.190491" toolNumber="7" />
+                <verifier_excess size="0.100145" posX="-11.052243" posY="84.920380" posZ="322.258392" toolNumber="7" />
+                <verifier_excess size="0.100145" posX="15.552244" posY="84.920380" posZ="322.258392" toolNumber="7" />
+            </nci>
+            <nci number="9978" blk="739" custom_information=" G1  X-23  Y-21  Z-11  A0  C0">
+                <verifier_excess size="0.119880" posX="-10.899343" posY="54.926586" posZ="322.410950" toolNumber="7" />
+                <verifier_excess size="0.119880" posX="15.399343" posY="54.926586" posZ="322.410950" toolNumber="7" />
+                <verifier_excess size="0.117419" posX="-11.510942" posY="54.926586" posZ="322.105835" toolNumber="7" />
+                <verifier_excess size="0.115905" posX="14.023252" posY="54.926586" posZ="323.021149" toolNumber="7" />
+                <verifier_excess size="0.112112" posX="14.329050" posY="54.926586" posZ="322.868591" toolNumber="7" />
+                <verifier_excess size="0.112112" posX="-9.829048" posY="54.926586" posZ="322.868591" toolNumber="7" />
+                <verifier_excess size="0.111359" posX="13.258753" posY="54.926586" posZ="323.326263" toolNumber="7" />
+                <verifier_excess size="0.111356" posX="-8.758753" posY="54.926586" posZ="323.326263" toolNumber="7" />
+                <verifier_excess size="0.108620" posX="12.494257" posY="54.926586" posZ="323.631378" toolNumber="7" />
+                <verifier_excess size="0.104603" posX="13.564554" posY="54.926586" posZ="323.173706" toolNumber="7" />
+                <verifier_excess size="0.104600" posX="-9.064552" posY="54.926586" posZ="323.173706" toolNumber="7" />
+                <verifier_excess size="0.103421" posX="-7.535559" posY="54.926586" posZ="323.783936" toolNumber="7" />
+                <verifier_excess size="0.103421" posX="12.035559" posY="54.926586" posZ="323.783936" toolNumber="7" />
+            </nci>
+            <nci number="10686" blk="783" custom_information=" G1  X+23  Y+21  Z-14  A0  C0">
+                <verifier_excess size="0.150882" posX="25.032003" posY="84.920380" posZ="317.071533" toolNumber="7" />
+                <verifier_excess size="0.150882" posX="-20.532003" posY="84.920380" posZ="317.071533" toolNumber="7" />
+            </nci>
+            <nci number="10743" blk="786" custom_information=" G2  X+23  Y-21  Z-14  A0  C0">
+                <verifier_excess size="0.302376" posX="28.242891" posY="57.681118" posZ="317.681732" toolNumber="7" />
+            </nci>
+            <nci number="10944" blk="798" custom_information=" G2  X-23  Y+21  Z-15  A0  C0">
+                <verifier_excess size="0.110860" posX="-21.908096" posY="84.614319" posZ="316.461304" toolNumber="7" />
+            </nci>
+            <nci number="10972" blk="800" custom_information=" G2  X+32  Y+12  Z-15  A0  C0">
+                <verifier_excess size="0.112958" posX="26.408098" posY="84.614319" posZ="316.461304" toolNumber="7" />
+            </nci>
+            <nci number="10982" blk="800" custom_information=" G2  X+32  Y+12  Z-15  A0  C0">
+                <verifier_excess size="0.117288" posX="27.172594" posY="84.155228" posZ="316.461304" toolNumber="7" />
+            </nci>
+            <nci number="16072" blk="1101" custom_information=" G1  X-32  Y+12  Z-34  A0  C0">
+                <verifier_excess size="0.186431" posX="-23.895788" posY="82.471909" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16075" blk="1102" custom_information=" G2  X-23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.189339" posX="-23.742889" posY="83.084023" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16082" blk="1102" custom_information=" G2  X-23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.181148" posX="-23.437090" posY="83.696144" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16101" blk="1102" custom_information=" G2  X-23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.140698" posX="-22.213896" posY="84.767349" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16105" blk="1102" custom_information=" G2  X-23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.142199" posX="-21.908096" posY="84.920380" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16107" blk="1102" custom_information=" G2  X-23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.197035" posX="-21.602299" posY="85.073410" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16126" blk="1103" custom_information=" G1  X+23  Y+21  Z-34  A0  C0">
+                <verifier_excess size="0.196773" posX="26.102301" posY="85.073410" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16131" blk="1104" custom_information=" G2  X+32  Y+12  Z-34  A0  C0">
+                <verifier_excess size="0.142460" posX="26.408098" posY="84.920380" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16135" blk="1104" custom_information=" G2  X+32  Y+12  Z-34  A0  C0">
+                <verifier_excess size="0.139592" posX="26.713896" posY="84.767349" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16151" blk="1104" custom_information=" G2  X+32  Y+12  Z-34  A0  C0">
+                <verifier_excess size="0.179934" posX="27.937094" posY="83.696144" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16158" blk="1104" custom_information=" G2  X+32  Y+12  Z-34  A0  C0">
+                <verifier_excess size="0.185447" posX="28.242891" posY="83.084023" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16180" blk="1105" custom_information=" G1  X+32  Y-12  Z-34  A0  C0">
+                <verifier_excess size="0.186429" posX="28.395792" posY="57.528091" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16183" blk="1106" custom_information=" G2  X+23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.189326" posX="28.242891" posY="56.915970" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16190" blk="1106" custom_information=" G2  X+23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.181126" posX="27.937094" posY="56.303852" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16209" blk="1106" custom_information=" G2  X+23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.140677" posX="26.713896" posY="55.232647" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16213" blk="1106" custom_information=" G2  X+23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.142196" posX="26.408098" posY="55.079617" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16215" blk="1106" custom_information=" G2  X+23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.197026" posX="26.102301" posY="54.926586" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16234" blk="1107" custom_information=" G1  X-23  Y-21  Z-34  A0  C0">
+                <verifier_excess size="0.196790" posX="-21.602299" posY="54.926586" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16239" blk="1108" custom_information=" G2  X-32  Y-12  Z-34  A0  C0">
+                <verifier_excess size="0.142401" posX="-21.908096" posY="55.079617" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16243" blk="1108" custom_information=" G2  X-32  Y-12  Z-34  A0  C0">
+                <verifier_excess size="0.139686" posX="-22.213896" posY="55.232647" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16259" blk="1108" custom_information=" G2  X-32  Y-12  Z-34  A0  C0">
+                <verifier_excess size="0.179949" posX="-23.437090" posY="56.303852" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="16266" blk="1108" custom_information=" G2  X-32  Y-12  Z-34  A0  C0">
+                <verifier_excess size="0.185457" posX="-23.742889" posY="56.915970" posZ="296.934296" toolNumber="7" />
+            </nci>
+            <nci number="17622" blk="2419" custom_information=" G1  X+29.452  Y+20.714  Z-14.890  A-41.312  C-241.352">
+                <verifier_excess size="0.110950" posX="26.713896" posY="84.461288" posZ="316.461304" toolNumber="7" />
+            </nci>
+            <nci number="17683" blk="2480" custom_information=" G1  X+18.203  Y-25.702  Z-15.283  A-36.026  C-320.036">
+                <verifier_excess size="0.105553" posX="12.952955" posY="54.926586" posZ="323.478821" toolNumber="7" />
+            </nci>
+            <nci number="17685" blk="2482" custom_information=" G1  X+15.254  Y-26.559  Z-15.345  A-34.921  C-326.249">
+                <verifier_excess size="0.102621" posX="11.729761" posY="54.926586" posZ="323.936493" toolNumber="7" />
+            </nci>
+            <nci number="17686" blk="2483" custom_information=" G1  X+13.762  Y-26.931  Z-15.373  A-34.428  C-329.445">
+                <verifier_excess size="0.103411" posX="10.812365" posY="54.926586" posZ="324.241577" toolNumber="7" />
+            </nci>
+            <nci number="17704" blk="2501" custom_information=" G1  X-13.735  Y-26.937  Z-15.373  A-34.42  C-390.498">
+                <verifier_excess size="0.103753" posX="-6.312363" posY="54.926586" posZ="324.241577" toolNumber="7" />
+                <verifier_excess size="0.101595" posX="-7.229759" posY="54.926586" posZ="323.936493" toolNumber="7" />
+                <verifier_excess size="0.100241" posX="-6.771061" posY="54.926586" posZ="324.089050" toolNumber="7" />
+            </nci>
+            <nci number="17705" blk="2502" custom_information=" G1  X-15.232  Y-26.565  Z-15.345  A-34.914  C-393.705">
+                <verifier_excess size="0.108501" posX="-7.994255" posY="54.926586" posZ="323.631378" toolNumber="7" />
+                <verifier_excess size="0.105869" posX="-8.452953" posY="54.926586" posZ="323.478821" toolNumber="7" />
+            </nci>
+            <nci number="17707" blk="2504" custom_information=" G1  X-18.190  Y-25.706  Z-15.283  A-36.021  C-399.938">
+                <verifier_excess size="0.115536" posX="-9.523250" posY="54.926586" posZ="323.021149" toolNumber="7" />
+            </nci>
+            <nci number="17721" blk="2518" custom_information=" G1  X-33.363  Y-17.548  Z-14.618  A-42.509  C-426.306">
+                <verifier_excess size="0.302569" posX="-23.742889" posY="57.834148" posZ="317.681732" toolNumber="7" />
+            </nci>
+            <nci number="17766" blk="2563" custom_information=" G1  X-30.943  Y+19.660  Z-14.783  A-41.754  C-476.927">
+                <verifier_excess size="0.114048" posX="-22.213896" posY="84.614319" posZ="316.461304" toolNumber="7" />
+            </nci>
+        </operation>
+        <operation id="11" toolId="5">
+            <nci number="18450" blk="2809" custom_information=" G1  X+13.830  Y+0  Z-13.830  A-35.  C-90">
+                <verifier_excess size="0.446661" posX="16.622541" posY="68.240158" posZ="318.291962" toolNumber="4" />
+            </nci>
+            <nci number="18452" blk="2811" custom_information=" G1  X+12.537  Y+0  Z-15.676  A-35.  C-90">
+                <verifier_gouge size="-0.945264" posX="14.787748" posY="69.923485" posZ="315.240875" toolNumber="4" />
+            </nci>
+            <nci number="18466" blk="2825" custom_information=" G1  X-13.830  Y+0  Z-13.830  A-35.  C90">
+                <verifier_excess size="0.446669" posX="-12.122539" posY="71.606812" posZ="318.291962" toolNumber="4" />
+            </nci>
+            <nci number="18468" blk="2827" custom_information=" G1  X-12.537  Y+0  Z-15.676  A-35.  C90">
+                <verifier_gouge size="-0.945265" posX="-10.287746" posY="70.076515" posZ="315.240875" toolNumber="4" />
+            </nci>
+        </operation>
+        <operation id="13" toolId="6">
+            <nci number="18483" blk="2842" custom_information=" G1  X-14.690  Y+0  Z-12.601  A-35.  C90">
+                <verifier_gouge size="-0.415832" posX="-15.639224" posY="70.229538" posZ="327.292694" toolNumber="5" />
+                <verifier_excess size="0.439981" posX="-13.192834" posY="71.453781" posZ="318.444519" toolNumber="5" />
+            </nci>
+            <nci number="18491" blk="2850" custom_information=" G1  X+14.690  Y+0  Z-12.601  A-35.  C-90">
+                <verifier_gouge size="-0.415832" posX="20.139227" posY="69.617424" posZ="327.292694" toolNumber="5" />
+                <verifier_excess size="0.439926" posX="17.692835" posY="71.453781" posZ="318.444519" toolNumber="5" />
+            </nci>
+        </operation>
+    </events>
+    <warnings count="0" />
+</simulation_report>
