@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import Label, filedialog , Text
-import os 
+import os
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageTk
 
